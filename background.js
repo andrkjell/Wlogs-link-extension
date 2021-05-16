@@ -8,5 +8,6 @@ var proggressButton = document.getElementsByClassName("armoryLink")[0];
 var x = document.createElement("a");
 var t = document.createTextNode("  (warcraftlogs)");
 x.setAttribute("href", newURL);
+x.setAttribute("target", "_blank");
 x.appendChild(t);
 insertAfter(proggressButton, x);
