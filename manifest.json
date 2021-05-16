@@ -1,12 +1,20 @@
 {
-  "name": "wowprogress to warcraftlogs",
-  "description": "Simple redirector",
+  "name": "Wlogs-link-extension",
+  "description": "Wlogs-link-extension",
   "version": "1.0",
-  "manifest_version": 3,
+
+  "permissions": [
+    "activeTab"
+  ],
   "content_scripts": [
     {
-      "matches": ["<https://www.wowprogress.com/character/>"]
+      "matches": ["https://www.wowprogress.com/character/eu/stormscale/Timeslayer"],
+      "js": ["background.js"]
     }
-  ]
+  ],
+  "browser_action": {
+    "default_title": "Wlogs-link-extension"
+  },
 
+  "manifest_version": 3
 }
