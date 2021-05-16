@@ -2,5 +2,11 @@
   "name": "wowprogress to warcraftlogs",
   "description": "Simple redirector",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<https://www.wowprogress.com/character/>"]
+    }
+  ]
+
 }
