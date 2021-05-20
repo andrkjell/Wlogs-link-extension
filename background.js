@@ -9,6 +9,8 @@ var x = document.createElement("a");
 var t = document.createTextNode("     (warcraftlogs)");
 x.setAttribute("href", newURL);
 x.setAttribute("target", "_blank");
+x.style.fontSize = "11px";
+x.rel
 x.appendChild(t);
 insertAfter(proggressButton, x);
 
@@ -19,4 +21,5 @@ var k = document.createTextNode("     (RaiderIO)");
 y.setAttribute("href", newURLIO);
 y.setAttribute("target", "_blank");
 y.appendChild(k);
+y.style.fontSize = "11px";
 insertAfter(proggressButton, y);
