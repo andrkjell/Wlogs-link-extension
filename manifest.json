@@ -10,12 +10,17 @@
     {
       "matches": ["https://www.wowprogress.com/character/*"],
       "js": ["background.js"]
+    },
+    {
+      "matches": ["https://raider.io/characters*"],
+      "js": ["raiderIO.js"]
     }
   ],
   "browser_action": {
     "default_title": "Wlogs-link-extension"
   },
-  "icons": { "16": "icon16.png",
+  "icons": {
+    "16": "icon16.png",
     "48": "icon48.png",
    "128": "icon128.png" },
 
